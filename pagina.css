@@ -1,0 +1,279 @@
+body{
+    background: linear-gradient(45deg, black, rgb(37, 36, 34), rgb(28, 24, 24));
+    background-attachment:fixed;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: 0.9s;
+
+}
+.logoTexto{
+    color: #d7820b;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration:underline rgba(255, 85, 0, 0.845);
+
+}
+article {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 100px;
+}
+.img1 {
+    width: 70px;
+    position: relative;
+}
+.titulo {
+    color: rgb(212, 131, 59);
+    font-family: fantasy;
+    font-style: italic;
+    font-size: x-large;
+    padding: 5px;
+    margin: 5px;
+}
+.imgApp {
+    display: flex;
+    padding: 30px;
+}
+.letras {
+    font-family: cursive;
+    font-style: inherit;
+    font-size: medium;
+    color: rgb(212, 131, 59);
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+.instrucciones {
+    padding-left: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    align-items: flex-start;
+    background-color: transparent;
+    padding: 14px;
+    padding-bottom: 30px;
+}
+.letra{
+    text-align: center;
+    font-size: medium;
+    padding: 10px;
+    color: rgb(212, 131, 59);
+    font-family:  'Alfa Slab One', cursiva;
+}
+.texto{
+    font-size: 14px;
+    
+}
+.btn{
+    font-size: 14px;
+    color: #000000;
+    background-color: #d7820b;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn:hover{
+    color: red;
+    background-color: rgb(116, 57, 5);
+}
+footer{
+    height: 20px;
+}
+
+h3{
+    font-size: 35px;
+    text-align: center;
+}
+input{
+    background-color: rgb(240, 207, 147);
+    border-color: rgb(212, 131, 59) ;
+    margin: 10px;
+}
+textarea{
+    background-color: rgb(240, 207, 147) ;
+    margin: 10px;
+}
+span{
+    color: #d7820b;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.descargar{
+    color: rgb(53, 245, 4);
+}
+
+body {
+    font-family: sans-serif;
+  }
+  .wrap-footer{
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+  }
+  .wrap-footer h3
+  {
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+  }
+  .wrap-footer a
+  {
+    color:#737373;
+  }
+  .wrap-footer h5
+  {
+    color:rgb(179, 181, 182);
+    font-size:16px;
+    text-transform:center;
+    letter-spacing:2px
+  }
+  .wrap-footer a:hover
+  {
+    color:#3366cc;
+    text-decoration:none;
+  }
+  .CenterText{
+    text-align: center;
+    padding-inline-start: 0;
+  }
+  .footer-creds li
+  {
+    display:block
+  }
+  .text-element-footer li
+  {
+    display:block;
+  }
+  .wrap-footer .social-icons
+  {
+    text-align:center
+  }
+  .wrap-footer .social-icons a
+  {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#33353d
+  }
+    .wrap-footer ,.social-icons
+    {
+      text-align:center
+    }
+  
+  .social-icons
+  {
+    padding: 0;
+    margin-bottom:0;
+    list-style:none
+  }
+  .social-icons li
+  {
+    display:inline-block;
+    margin-bottom:4px
+  }
+  .social-icons a{
+    background-color:#eceeef;
+    color:#818a91;
+    font-size:30px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius: 100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+  }
+  .social-icons a.facebook:hover
+  {
+    background-color:#3b5998
+  }
+  .social-icons a.wsp:hover
+  {
+    background-color:#00ed0c
+  }
+  .social-icons a.linkedin:hover
+  {
+    background-color:#007bb6
+  }
+  .social-icons a.instagram:hover
+  {
+    background-color:#ea4c89
+  }
+
+  .facebook{
+    width: 35px;
+    height: 35px;
+    padding-top: 2px;
+  }
+
+  .instagram{
+    width: 35px;
+    height: 35px;
+    padding-top: 2px;
+  }
+  .wsp{
+    width: 35px;
+    height: 35px;
+    padding-top: 2px;
+    padding-left: 2px;
+  }
+
+  .linkedin{
+    width: 35px;
+    height: 35px;
+    padding-top: 2px;
+  }
+
+  section{
+   padding-left: 30px;
+   padding-top: 70px; 
+  }
+
+  .descargas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-top: 30px;
+  }
+  .botonDesc{
+    background-color: transparent;
+    color: #d7820b;
+    border: none ;
+    border-radius: 10%;
+  }
+  .botonDesc:hover{
+    background-color: green; 
+  }

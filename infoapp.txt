@@ -1,0 +1,10 @@
+<artículo>  
+        <p action="#" id="informacion" class="titulo">PRESENTACION</p>
+        <div class="imgApp">
+           
+            <h1 class="letras">Esta Aplicación permite tomar registros diarios de la actividad física, la alimentación y el descanso realizado por una persona.
+            Estos datos se guardan periódicamente con la información proporcionada por el usuario y permiten al finalizar la semana crear un
+            resumen de la misma para poder comparar el progreso con respecto a semanas anteriores u/o posteriores.</h1>
+            <img src="./1acc9aa1-4229-4b52-b332-c38f86d22715-fotor-bg-remover-20230326152924.png" class="img">
+        </div>
+    </artículo>
